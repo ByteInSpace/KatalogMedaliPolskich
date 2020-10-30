@@ -1,5 +1,6 @@
 use polmedal;
 
+DROP TABLE dd_sellingauction;
 DROP TABLE dd_referencepersonbook;
 DROP TABLE dd_referencemedalbook;
 DROP TABLE dd_book;
