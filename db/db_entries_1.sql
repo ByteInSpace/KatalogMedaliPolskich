@@ -47,3 +47,11 @@ INSERT INTO dr_material (id, material_pl, material_deu, material_eng) VALUES('5'
 INSERT INTO dr_material (id, material_pl, material_deu, material_eng) VALUES('6', 'Cyna', 'Zinn', 'Tin');
 INSERT INTO dr_material (id, material_pl, material_deu, material_eng) VALUES('7', 'Cynk', 'Zink', 'Zinc');
 INSERT INTO dr_material (id, material_pl, material_deu, material_eng) VALUES('8', 'Cynk srebrzony', 'Zink versilbert', 'Zinc coated with silver');
+
+
+INSERT INTO dr_currency (id, currencycode) VALUES('1', 'PLN');
+INSERT INTO dr_currency (id, currencycode) VALUES('2', 'EUR');
+INSERT INTO dr_currency (id, currencycode) VALUES('3', 'USD');
+
+INSERT INTO dr_persontype (id, persontypedesc_pl, persontypedesc_deu, persontypedesc_eng) VALUES('1', 'Rytownik', 'Medailleur', 'Medailleur');
+INSERT INTO dr_persontype (id, persontypedesc_pl, persontypedesc_deu, persontypedesc_eng) VALUES('2', 'Władca', 'Herrscher', 'Ruler');

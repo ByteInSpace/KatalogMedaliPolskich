@@ -50,17 +50,18 @@ CREATE TABLE dr_condition
 
 CREATE TABLE dr_currency
 (
-	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-	currencycode VARCHAR(5) NOT NULL
+	id INT(6) UNSIGNED PRIMARY KEY,
+	currencycode VARCHAR(5) NOT NULL,
+	CONSTRAINT dr_currency_id UNIQUE (id)
 ) ENGINE = InnoDB;
 
 CREATE TABLE dr_persontype
 (
-	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-	persontype INT(1) NOT NULL,
+	id INT(6) UNSIGNED PRIMARY KEY,
 	persontypedesc_pl VARCHAR(20) COLLATE 'utf8_unicode_ci',
 	persontypedesc_deu VARCHAR(20),
-	persontypedesc_eng VARCHAR(20)
+	persontypedesc_eng VARCHAR(20),
+	CONSTRAINT dr_personentype_id UNIQUE (id)
 ) ENGINE = InnoDB;
 
 -- Changeable tables
